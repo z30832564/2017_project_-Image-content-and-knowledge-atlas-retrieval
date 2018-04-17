@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=" width=device-width, initial-scale=1">
+    <meta name="author" content="Mousse">
+
+    <title>结果页</title>
+    <link href="../static/main/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!--<link href="../static/css/mm.css" rel="stylesheet" type="text/css">-->
+
+</head>
+<body>
+    <div align="center">
+      <h1>搜索结果</h1>
+    </div>
+    <header class="int" align="center">
+      <div class="into-body">
+        <div class="container">
+        <section class="container content-section  ">
+          <hr/>
+            <h3>查询结果</h3>
+          <hr/>
+          {% for path,name,score in results %}
+          <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="../static/dataset/{{path}}.jpg" width="225px" height="300px" >
+              <div class="caption">
+                <p style="color:black">          {{name}}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      </div>
+    </div>
+  </header>
+
+    <footer align="center">
+        <div class="container ">
+            <p>大连海事大学大学生创新创业计划</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
