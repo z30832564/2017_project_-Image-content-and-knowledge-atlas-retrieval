@@ -1,0 +1,15 @@
+@prefix ns1: <http://www.example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:利用Python进行数据分析 ns1:书号 <http://www.example.org/9787111436737> ;
+    ns1:作者 ns1:wes.mckinney ;
+    ns1:出版社 ns1:机械工业出版社 ;
+    ns1:定价 <http://www.example.org/89.00> ;
+    ns1:版次 <http://www.example.org/2014年1月第一版> ;
+    ns1:译者 ns1:唐学涛 .
+
+ns1:唐学涛 ns1:翻译 ns1:利用Python进行数据分析 .
+

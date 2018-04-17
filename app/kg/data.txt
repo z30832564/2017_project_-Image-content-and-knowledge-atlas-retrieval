@@ -1,0 +1,9 @@
+s o p
+利用Python进行数据分析 出版社 机械工业出版社
+利用Python进行数据分析 作者 wes.mckinney
+利用Python进行数据分析 译者 唐学涛
+利用Python进行数据分析 定价 89.00
+利用Python进行数据分析 版次 2014年1月第一版
+利用Python进行数据分析 书号 9787111436737
+唐学涛 翻译 利用Python进行数据分析
+wes.mckinney 写作 利用python进行数据分析
