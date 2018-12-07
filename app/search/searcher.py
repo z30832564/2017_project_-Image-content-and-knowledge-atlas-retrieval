@@ -34,14 +34,15 @@ class Searcher(object):
             d = self.chi2_distance(features, self.queryFeatures)
             self.results[s] = d
         # 结果排序
-        results = sorted([(v, k) for (k, v) in self.results.items()])
+        results = sorted([(v, k) for (k, v) in self.results.items()], reverse=True)
 
-        self.results = results[:6]
+        self.results = results[0:6]
+
+
 '''class Searcher:
     def __init__(self, indexPath):
         # store our index path
         self.indexPath = indexPath
-
     def chi2_distance(self, histA, histB, eps=1e-10):
         # compute the chi-squared distance
         d = 0.5 * np.sum([((a - b) ** 2) / (a + b + eps)
