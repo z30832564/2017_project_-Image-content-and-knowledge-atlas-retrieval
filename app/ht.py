@@ -1,13 +1,13 @@
 # coding=utf-8
 from flask import Flask, render_template, request, redirect, url_for
-from werkzeug import secure_filename
 from app.search.colordescriptor import ColorDescriptor
 from app.search.searcher import Searcher
-import jieba
 from app.kg.knowledgeg import Queryer
-import string
+from app.search.find_book import find_book_edge
 import cv2
-import os
+import base64
+import numpy as np
+import jieba
 
 app = Flask(__name__)
 
@@ -39,37 +39,42 @@ def t_text():
 @app.route('/index_img', methods=["GET", "POST"])
 def index_img():
     if request.method == "POST":
-        image = request.files['file']
-        # 保存图像
-        filename = secure_filename(image.filename)
-        image.save(filename)
-        return redirect(url_for('search_file', filename=filename))
+        img = request.form.get("tijiao")
+        img = base64.b64decode(img)
+        nparr = np.fromstring(img, np.uint8)
+        img_np = cv2.imdecode(nparr, cv2.COLOR_RGB2BGR)
+        find_book_edge(img_np)
+
+        # 实例化ColorDescriptor类，bin的数量值
+        cd = ColorDescriptor((8, 3, 3))
+
+        # 提取查询图像的特征值
+        features = cd.describe(img_np)
+        # 实例化Searcher
+        s = Searcher(features)
+        s.Search()
+        global results
+        results = s.results
+        print(results)
+
+        return redirect(url_for('search_file'))
 
     return render_template('index1.html')
 
 
 # 搜索页面部分
-@app.route('/search_file/<filename>', methods=['POST', 'GET'])
-def search_file(filename):
-    query = cv2.imread(filename)
-    # 实例化ColorDescriptor类，bin的数量值
-    cd = ColorDescriptor((8, 3, 3))
-
-    # 提取查询图像的特征值
-    features = cd.describe(query)
-    # 实例化Searcher
-    s = Searcher(features)
-    s.Search()
-    results = s.results
-    print(results)
+@app.route('/search_file/', methods=['POST', 'GET'])
+def search_file():
+    global results
     # 传递参数给html
     return render_template('result.html', results=results)
 
 
 @app.route('/search_text/<string>', methods=['POST', 'GET'])
 def search_text(string):
-    # l = list(jieba.cut_for_search(string))
-    l = string.split('为')
+    l = list(jieba.cut_for_search(string))
+    print(l)
     q = Queryer(l)
     result = q.Query()
+    result.reverse()
     return render_template('result.html', results=result)

@@ -24,6 +24,10 @@ def jstz(imagePath):
     ID = imagePath[imagePath.rfind("/") + 1:]
     imageID = ID[:10]
     image = cv2.imread(imagePath)
+    image = cv2.Canny(image, image.shape[0], image.shape[1])
+    image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
+    cv2.imwrite(imageID+'.jpg',image)
+
     # #提取特征值
     _features = cd.describe(image)
     _features = [float(f) for f in _features]
