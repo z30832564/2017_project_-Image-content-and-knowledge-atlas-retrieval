@@ -6,6 +6,7 @@ s='http://www.example.org/'
 g = rdflib.Graph()
 
 for i in range(len(data)):
+    print(data.loc[i][2])
     a = rdflib.URIRef(s+''.join(data.loc[i][0]))
     b = rdflib.URIRef(s+''.join(data.loc[i][1]))
     c = rdflib.URIRef(s+''.join(data.loc[i][2]))

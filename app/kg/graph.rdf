@@ -4,12 +4,437 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:利用Python进行数据分析 ns1:书号 <http://www.example.org/9787111436737> ;
-    ns1:作者 ns1:wes.mckinney ;
-    ns1:出版社 ns1:机械工业出版社 ;
-    ns1:定价 <http://www.example.org/89.00> ;
-    ns1:版次 <http://www.example.org/2014年1月第一版> ;
-    ns1:译者 ns1:唐学涛 .
+<http://www.example.org/2014年4月第一版> ns1:翻译 <http://www.example.org/C/C++高效率编程-用自然语言思想递进学习C/C++> .
+
+ns1:Baron ns1:写作 ns1:高性能MySQL .
+
+ns1:Cbodorow ns1:写作 ns1:MongoDB权威指南 .
+
+ns1:Clinton.W.Brownley ns1:写作 ns1:Python数据分析基础 .
+
+ns1:Craig.Walls ns1:写作 ns1:Spring实战 .
+
+ns1:Jacqueline.Kazil ns1:写作 ns1:Python数据处理 .
+
+ns1:John.Jay.Hilfiger ns1:写作 ns1:R图形化数据分析 .
+
+ns1:JosaiahL.Carlson ns1:写作 ns1:Redis实战 .
+
+ns1:Len.D.M.Nokes ns1:写作 ns1:电子设计从零开始 .
+
+ns1:Norma.Maurer ns1:写作 ns1:Netty实战 .
+
+ns1:Robert.Kabacoff ns1:写作 ns1:R语言实战 .
+
+ns1:Steven.Bird ns1:写作 ns1:Python自然语言处理 .
+
+ns1:Sveta.Smirnova ns1:写作 ns1:MySQL排错指南 .
+
+ns1:Winston.Chang ns1:写作 ns1:R数据可视化手册 .
+
+ns1:Yves.Hilpisch ns1:写作 ns1:Python金融大数据分析 .
+
+ns1:wes.mckinney ns1:写作 ns1:利用Python进行数据分析 .
+
+ns1:东南大学出版社 ns1:出版 ns1:Python自然语言处理 .
+
+ns1:何品 ns1:翻译 ns1:Netty实战 .
+
+ns1:刘慈欣 ns1:写作 ns1:三体 .
+
+ns1:刘湘黔 ns1:写作 ns1:电子设计从零开始 .
+
+ns1:北京出版社 ns1:出版 ns1:三体 .
+
+ns1:北京邮电大学出版社 ns1:出版 ns1:智能科学技术导论 .
+
+ns1:周志华 ns1:写作 ns1:机器学习 .
 
 ns1:唐学涛 ns1:翻译 ns1:利用Python进行数据分析 .
+
+ns1:姚军 ns1:翻译 ns1:Python金融大数据分析 .
+
+ns1:张亮 ns1:翻译 ns1:Python数据处理 .
+
+ns1:机械工业出版社 ns1:出版 ns1:利用Python进行数据分析 .
+
+ns1:李佳璇 ns1:出版 ns1:TensorFlow技术解析与实战 .
+
+ns1:李宏哲 ns1:翻译 ns1:MySQL排错指南 .
+
+ns1:李春庚 ns1:出版 <http://www.example.org/C/C++高效率编程-用自然语言思想递进学习C/C++> .
+
+ns1:李航 ns1:写作 ns1:统计学习方法 .
+
+ns1:杨欣 ns1:写作 ns1:电子设计从零开始 .
+
+ns1:杨海玲 ns1:翻译 ns1:Redis实战 .
+
+ns1:王小东 ns1:翻译 ns1:高性能MySQL .
+
+ns1:王洋洋 ns1:翻译 ns1:R图形化数据分析 .
+
+ns1:王玉凤 ns1:写作 ns1:电子设计从零开始 .
+
+ns1:电子工业出版社 ns1:出版 ns1:黑客攻防实战与解密 .
+
+ns1:盛骤 ns1:写作 ns1:概率论与数理统计 .
+
+ns1:程显峰 ns1:翻译 ns1:MongoDB权威指南 .
+
+ns1:程杰 ns1:写作 ns1:大话数据结构 .
+
+ns1:耿渊张卫滨 ns1:翻译 ns1:Spring实战 .
+
+ns1:肖楠 ns1:翻译 ns1:R数据可视化手册 .
+
+ns1:钟义信 ns1:写作 ns1:智能科学技术导论 .
+
+ns1:陈光欣 ns1:翻译 ns1:Python数据分析基础 .
+
+ns1:陈小兵 ns1:写作 ns1:黑客攻防实战与解密 .
+
+ns1:陈涛 ns1:翻译 ns1:Python自然语言处理 .
+
+ns1:高涛肖楠陈钢 ns1:翻译 ns1:R语言实战 .
+
+ns1:高等教育出版社 ns1:出版 ns1:概率论与数理统计 .
+
+ns1:西山图书馆2楼 ns1:藏书 ns1:智能科学技术导论,
+        ns1:电子设计从零开始 .
+
+ns1:TensorFlow技术解析与实战 ns1:书号 <http://www.example.org/9787115456> ;
+    ns1:作者 ns1:人民邮电出版社 ;
+    ns1:出版社 ns1:李佳璇 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/79.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/9787115456.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2017年6月第一版> ;
+    ns1:译者 ns1:无 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:三体 ns1:主人公 ns1:汪淼 ;
+    ns1:书号 <http://www.example.org/1900470999> ;
+    ns1:作者 ns1:刘慈欣 ;
+    ns1:出版社 ns1:北京出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/89.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900470999.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2014年5月第二版> ;
+    ns1:译者 ns1:无 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:大话数据结构 ns1:书号 <http://www.example.org/9787302125> ;
+    ns1:作者 ns1:程杰 ;
+    ns1:出版社 ns1:清华大学出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/59.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/9787302125.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2011年6月第一版> ;
+    ns1:译者 ns1:无 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:智能科学技术导论 ns1:书号 <http://www.example.org/9787563513> ;
+    ns1:作者 ns1:钟义信 ;
+    ns1:出版社 ns1:北京邮电大学出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/28.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/9787563513.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2006年12月第一版> ;
+    ns1:译者 ns1:无 ;
+    ns1:馆藏地 ns1:西山图书馆2楼 .
+
+ns1:机器学习 ns1:书号 <http://www.example.org/9787302423> ;
+    ns1:作者 ns1:周志华 ;
+    ns1:出版社 ns1:清华大学出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/88.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/9787302423.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2016年1月第一版> ;
+    ns1:译者 ns1:无 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:概率论与数理统计 ns1:书号 <http://www.example.org/9787040238> ;
+    ns1:作者 ns1:盛骤 ;
+    ns1:出版社 ns1:高等教育出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/37.40> ;
+    ns1:封面地址 <http://www.example.org/jpg/9787040238.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2008年6月第四版> ;
+    ns1:译者 ns1:无 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:统计学习方法 ns1:书号 <http://www.example.org/9787302275> ;
+    ns1:作者 ns1:李航 ;
+    ns1:出版社 ns1:清华大学出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/38.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/9787302275.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2012年3月第一版> ;
+    ns1:译者 ns1:无 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:黑客攻防实战与解密 ns1:书号 <http://www.example.org/9787121299> ;
+    ns1:作者 ns1:陈小兵 ;
+    ns1:出版社 ns1:电子工业出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/69.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/9787121299.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2010年10月第2版> ;
+    ns1:译者 ns1:无 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+<http://www.example.org/C/C++高效率编程-用自然语言思想递进学习C/C++> ns1:书号 <http://www.example.org/9787302383> ;
+    ns1:作者 ns1:清华大学出版社 ;
+    ns1:出版社 ns1:李春庚 ;
+    ns1:在架数量 <http://www.example.org/0> ;
+    ns1:定价 ns1:西山图书馆3楼 ;
+    ns1:封面地址 <http://www.example.org/jpg/9787302383.jpg> ;
+    ns1:应还日期 <http://www.example.org/00> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/49.50> ;
+    ns1:译者 <http://www.example.org/2014年4月第一版> ;
+    ns1:馆藏地 <http://www.example.org/1> .
+
+ns1:MongoDB权威指南 ns1:书号 <http://www.example.org/1900470925> ;
+    ns1:作者 ns1:Cbodorow ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/89.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900470925.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2011年4月1日第一版> ;
+    ns1:译者 ns1:程显峰 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:MySQL排错指南 ns1:书号 <http://www.example.org/1900722592> ;
+    ns1:作者 ns1:Sveta.Smirnova ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/39.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900722592.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2015年8月第一版> ;
+    ns1:译者 ns1:李宏哲 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:Netty实战 ns1:书号 <http://www.example.org/1900722664> ;
+    ns1:作者 ns1:Norma.Maurer ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/45.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900722664.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2017年5月第一版> ;
+    ns1:译者 ns1:何品 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:Python数据分析基础 ns1:书号 <http://www.example.org/1900759088> ;
+    ns1:作者 ns1:Clinton.W.Brownley ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/69.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900759088.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2017年8月第一版> ;
+    ns1:译者 ns1:陈光欣 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:Python数据处理 ns1:书号 <http://www.example.org/1900759085> ;
+    ns1:作者 ns1:Jacqueline.Kazil ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/79.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900759085.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2017年6月第三版> ;
+    ns1:译者 ns1:张亮 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:Python自然语言处理 ns1:书号 <http://www.example.org/1900722499> ;
+    ns1:作者 ns1:Steven.Bird ;
+    ns1:出版社 ns1:东南大学出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/64.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900722499.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2010年6月第一版> ;
+    ns1:译者 ns1:陈涛 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:Python金融大数据分析 ns1:书号 <http://www.example.org/1900722521> ;
+    ns1:作者 ns1:Yves.Hilpisch ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/70.40> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900722521.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2015年12月第一版> ;
+    ns1:译者 ns1:姚军 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:Redis实战 ns1:书号 <http://www.example.org/1900722520> ;
+    ns1:作者 ns1:JosaiahL.Carlson ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/69.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900722520.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2015年第一版> ;
+    ns1:译者 ns1:杨海玲 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:R图形化数据分析 ns1:书号 <http://www.example.org/1900759089> ;
+    ns1:作者 ns1:John.Jay.Hilfiger ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/69.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900759089.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2017年8月第一版> ;
+    ns1:译者 ns1:王洋洋 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:R数据可视化手册 ns1:书号 <http://www.example.org/1900772906> ;
+    ns1:作者 ns1:Winston.Chang ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/89.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900772906.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2014年5月第二版> ;
+    ns1:译者 ns1:肖楠 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:R语言实战 ns1:书号 <http://www.example.org/1900470948> ;
+    ns1:作者 ns1:Robert.Kabacoff ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/79.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900470948.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2013年1月第二版> ;
+    ns1:译者 ns1:高涛肖楠陈钢 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:Spring实战 ns1:书号 <http://www.example.org/1900703344> ;
+    ns1:作者 ns1:Craig.Walls ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/49.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/1900703344.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2011年6月第三版> ;
+    ns1:译者 ns1:耿渊张卫滨 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:利用Python进行数据分析 ns1:作者 ns1:wes.mckinney ;
+    ns1:出版社 ns1:机械工业出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/89.00> ;
+    ns1:封面地址 <http://www.example.org/jpg/9787111436.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2014年1月第一版> ;
+    ns1:译者 ns1:唐学涛 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:高性能MySQL ns1:书号 <http://www.example.org/1900716972> ;
+    ns1:作者 ns1:Baron ;
+    ns1:出版社 ns1:人民邮电出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/99.00> ;
+    ns1:封面地址 <http://www.example.org/jpg./1900716972.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2010年2月第一版> ;
+    ns1:译者 ns1:王小东 ;
+    ns1:馆藏地 ns1:西山图书馆3楼 .
+
+ns1:清华大学出版社 ns1:写作 <http://www.example.org/C/C++高效率编程-用自然语言思想递进学习C/C++> ;
+    ns1:出版 ns1:大话数据结构,
+        ns1:机器学习,
+        ns1:电子设计从零开始,
+        ns1:统计学习方法 .
+
+ns1:电子设计从零开始 ns1:书号 <http://www.example.org/9787302231> ;
+    ns1:作者 ns1:Len.D.M.Nokes,
+        ns1:刘湘黔,
+        ns1:杨欣,
+        ns1:王玉凤 ;
+    ns1:出版社 ns1:清华大学出版社 ;
+    ns1:在架数量 <http://www.example.org/1> ;
+    ns1:定价 <http://www.example.org/59.80> ;
+    ns1:封面地址 <http://www.example.org/jpg/9787302231.jpg> ;
+    ns1:应还日期 <http://www.example.org/0.0> ;
+    ns1:数量 <http://www.example.org/1> ;
+    ns1:版次 <http://www.example.org/2010年10月第2版> ;
+    ns1:译者 ns1:无 ;
+    ns1:馆藏地 ns1:西山图书馆2楼 .
+
+ns1:人民邮电出版社 ns1:写作 ns1:TensorFlow技术解析与实战 ;
+    ns1:出版 ns1:MongoDB权威指南,
+        ns1:MySQL排错指南,
+        ns1:Netty实战,
+        ns1:Python数据分析基础,
+        ns1:Python数据处理,
+        ns1:Python金融大数据分析,
+        ns1:Redis实战,
+        ns1:R图形化数据分析,
+        ns1:R数据可视化手册,
+        ns1:R语言实战,
+        ns1:Spring实战,
+        ns1:高性能MySQL .
+
+ns1:西山图书馆3楼 ns1:藏书 ns1:MongoDB权威指南,
+        ns1:MySQL排错指南,
+        ns1:Netty实战,
+        ns1:Python数据分析基础,
+        ns1:Python数据处理,
+        ns1:Python自然语言处理,
+        ns1:Python金融大数据分析,
+        ns1:Redis实战,
+        ns1:R图形化数据分析,
+        ns1:R数据可视化手册,
+        ns1:R语言实战,
+        ns1:Spring实战,
+        ns1:TensorFlow技术解析与实战,
+        ns1:三体,
+        ns1:利用Python进行数据分析,
+        ns1:大话数据结构,
+        ns1:机器学习,
+        ns1:概率论与数理统计,
+        ns1:统计学习方法,
+        ns1:高性能MySQL,
+        ns1:黑客攻防实战与解密 .
+
+<http://www.example.org/1> ns1:藏书 <http://www.example.org/C/C++高效率编程-用自然语言思想递进学习C/C++> .
 
